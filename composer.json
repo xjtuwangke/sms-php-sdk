@@ -1,6 +1,6 @@
 {
     "name": "xjtuwangke/sms",
-    "description": "SDK for single sms service(luosimao.com)",
+    "description": "SDK for single sms service(luosimao.com and so on)",
     "license": "MIT",
     "authors": [
         {
@@ -13,13 +13,7 @@
             "Sms" : "src/"
         }
     },
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        }
     }
 }
