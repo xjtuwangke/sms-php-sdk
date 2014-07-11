@@ -1,0 +1,25 @@
+{
+    "name": "xjtuwangke/sms",
+    "description": "SDK for single sms service(luosimao.com)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangke",
+            "email": "wangke85@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "Sms" : "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
