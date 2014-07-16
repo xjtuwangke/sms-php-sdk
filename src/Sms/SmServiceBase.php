@@ -89,7 +89,7 @@ class SmServiceBase {
         $options = array_shift( $args );
         foreach( $args as $key ){
             if( isset( $options[$key] ) ){
-                $this->$key = $options['key'];
+                $this->$key = $options[$key];
             }
         }
     }
